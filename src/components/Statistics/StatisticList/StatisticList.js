@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import style from '../..'
 
 const StatisticList = ({ label, percentage }) => (
   <>
-    <span className={'style.label'}>{label}</span>
-    <span className={'style.percentage'}>{percentage}%</span>
+    <span className={style.label}>{label}</span>
+    <span className={style.percentage}>{percentage}%</span>
   </>
 );
 

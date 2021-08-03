@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+
+.statistics {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.statList {
+  padding: 16px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.item:nth-child(even) {
+  background-color: #f2f2f2;
+}

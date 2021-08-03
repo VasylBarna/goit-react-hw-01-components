@@ -1,0 +1,24 @@
+.profile {
+  padding: 15px;
+  text-align: center;
+}
+.avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 4px solid #555;
+}
+
+.name {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.tag {
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.stats {
+  display: inline-flex;
+}

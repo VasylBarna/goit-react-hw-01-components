@@ -1,0 +1,27 @@
+.avatar {
+  margin-bottom: 5px;
+}
+.item {
+  display: grid;
+  justify-items: center;
+}
+.name {
+  font-size: 22px;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
+span {
+  margin-bottom: 6px;
+}

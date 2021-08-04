@@ -1,0 +1,8 @@
+.list {
+  padding: 15px;
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: azure;
+}

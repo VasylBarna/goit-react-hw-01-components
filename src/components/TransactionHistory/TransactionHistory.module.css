@@ -1,0 +1,26 @@
+.history {
+  padding: 15px;
+  width: 550px;
+  background-color: beige;
+  font-variant-caps: small-caps;
+  font-weight: bold;
+}
+
+.title {
+  color: darkorange;
+  font-variant-caps: small-caps;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.tbody {
+  color: dodgerblue;
+  font-size: 14px;
+}
+th {
+  padding: 15px;
+}
+td {
+  padding: 10px;
+  text-align: center;
+  background-color: azure;
+}
